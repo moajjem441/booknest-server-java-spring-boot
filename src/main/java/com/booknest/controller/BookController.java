@@ -26,6 +26,7 @@ public class BookController {
         this.borrowRequestService = borrowRequestService;
     }
 
+    
     @GetMapping
     public List<Book> getAllBooks() {
         return bookService.getAllBooks();
