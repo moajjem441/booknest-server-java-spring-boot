@@ -31,3 +31,15 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Maven build output
+target/
+
+# IDE specific (IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment / Secrets (এটি সবচেয়ে গুরুত্বপূর্ণ)
+src/main/resources/application.properties
